@@ -95,3 +95,5 @@ footer {
 #footer-text {
   @include footer-text;
 }
+
+@import "partials/media-queries";
