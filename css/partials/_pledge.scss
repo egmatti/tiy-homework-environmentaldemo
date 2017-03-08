@@ -1,0 +1,29 @@
+@mixin pledge {
+  width: 100%;
+  height: 300px;
+  background: $blue;
+}
+
+@mixin pledge-text {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  @include verticalcenter;
+  top: 50%;
+
+  h2 {
+    color: white;
+    @include h2;
+  }
+
+  hr {
+    color: white;
+    margin: 20px 0px;
+  }
+
+  p {
+    color: white;
+    font-size: 1rem;
+    line-height: 32px;
+  }
+}

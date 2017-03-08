@@ -1,0 +1,18 @@
+@mixin footer {
+    background: $beige;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid black;
+  }
+
+@mixin footer-text {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    span {
+      color: $blue;
+      display: inline-block;
+      padding: 25px 100px;
+    }
+  }

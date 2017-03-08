@@ -1,0 +1,77 @@
+@mixin issues {
+  width: 100%;
+  height: auto;
+  background: $beige;
+  overflow: hidden;
+}
+
+@mixin issues-text {
+  margin: 60px auto;
+  width: 80%;
+  text-align: center;
+
+  h2 {
+    color: $blue;
+    @include h2;
+  }
+
+  hr {
+    color: black;
+    margin: 20px 0px;
+  }
+
+  p {
+    color: black;
+    font-size: 1rem;
+    line-height: 32px;
+  }
+}
+
+@mixin columns {
+  width: 100%;
+  margin: 40px auto 60px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@mixin cols {
+  width: 215px;
+  height: auto;
+  background-color: white;
+  margin: 20px 10px;
+  padding: 0 5px 40px 5px;
+
+  h3 {
+    color: $blue;
+    font-style: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.15rem;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+@mixin circle {
+  width: 50px;
+  height: 50px;
+  margin: 30px auto;
+  border: 1px solid $blue;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@mixin fa {
+  color: $blue;
+  text-align: center;
+  font-size: 2rem;
+}

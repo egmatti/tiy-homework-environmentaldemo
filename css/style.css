@@ -178,6 +178,7 @@ header {
   font-size: 2rem; }
 
 .circle:hover {
+  color: white;
   background-color: #305291; }
 
 .circle:hover .fa {
